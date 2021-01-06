@@ -1,9 +1,7 @@
 package com.app.daggerhiltsapplicationtmdb.ui.main
 
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -16,8 +14,6 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class HomeActivity : AppCompatActivity() {
 
-   /* @Inject
-    lateinit var navController:NavController*/
     @Inject
     lateinit var appBarConfiguration:AppBarConfiguration
     private val viewBinding : ActivityMainBinding by lazy {
