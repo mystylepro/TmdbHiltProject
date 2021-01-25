@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "556199621716",
+    "project_id": "tmdb-96ff8",
+    "storage_bucket": "tmdb-96ff8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556199621716:android:7dea9a2532e997d5a529c1",
+        "android_client_info": {
+          "package_name": "com.app.daggerhiltsapplicationtmdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556199621716-nbv3vu2inmiscdhbj178tq2i768iodrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.daggerhiltsapplicationtmdb",
+            "certificate_hash": "0120677dc3dc7835f7f5408339f94d5249306b52"
+          }
+        },
+        {
+          "client_id": "556199621716-ssjslc2viurjggifjcfdd8fgbf92npj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6jWBHKzTZ2FYHGHcZZ8fQmIMSd2hDEtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556199621716-ssjslc2viurjggifjcfdd8fgbf92npj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

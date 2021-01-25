@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/947b453f219135d9b2bb8373f5e7e7fe/jetified-hilt-work-1.0.0-alpha02/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd57136c9d8dfd58f8e1f8e3c12cd750/jetified-hilt-work-1.0.0-alpha02/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd57136c9d8dfd58f8e1f8e3c12cd750/jetified-hilt-work-1.0.0-alpha02/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd57136c9d8dfd58f8e1f8e3c12cd750/jetified-hilt-work-1.0.0-alpha02/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1732c35cb5e324d3922470175cac7ae/jetified-hilt-work-1.0.0-alpha02/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1732c35cb5e324d3922470175cac7ae/jetified-hilt-work-1.0.0-alpha02/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1732c35cb5e324d3922470175cac7ae/jetified-hilt-work-1.0.0-alpha02/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
