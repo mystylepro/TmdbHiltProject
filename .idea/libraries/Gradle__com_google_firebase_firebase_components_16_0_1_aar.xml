@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-components:16.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67072bab46ec106798c901d9961fd97b/jetified-firebase-components-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f259a77cfb0a0dab4cadaa4070cf1e5/jetified-firebase-components-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18029b7c911c3c8ce72ae71b918af922/jetified-firebase-components-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2efd37726fe4cfd2d6e0586f5c8d197c/jetified-firebase-components-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72172bed9c1e408361d77b12bc60823e/jetified-firebase-components-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70a211d5ccb4bf5da7ab89a2e7e1776d/jetified-firebase-components-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a32feb27f24e1ef013b8c334a3e8c1/jetified-firebase-components-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a32feb27f24e1ef013b8c334a3e8c1/jetified-firebase-components-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a32feb27f24e1ef013b8c334a3e8c1/jetified-firebase-components-16.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-components/16.0.1/67afc07f26d4596a73287f8b2b605aa77e060f15/firebase-components-16.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-components/16.0.1/5826d9873ad97fa537714b91c4c73ed6ac6f236c/firebase-components-16.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

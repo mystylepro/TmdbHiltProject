@@ -1,0 +1,103 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'kotlinx-serialization'
+
+
+android {
+    compileSdkVersion rootProject.ext.androidCompileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolVersion
+
+    defaultConfig {
+        applicationId "com.app.daggerhiltsapplicationtmdb"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.androidCompileSdkVersion
+        versionCode rootProject.ext.verstionCode
+        versionName rootProject.ext.verstionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField 'String', 'BASE_URL', "\"https://api.themoviedb.org/3/\""
+        buildConfigField 'String', 'BASE_URL_TEST', "\"https://ndigmoneyapiv1.necpaymentsuat.com:8880/api/\""
+        buildConfigField 'String', 'API_KEY', "\"3bb03c2123fd2f0496dd3f12503e86e4\""
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = rootProject.ext.jvmTarget
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'com.google.firebase:firebase-auth:20.0.2'
+    def dependencies = rootProject.ext.appDependencies
+
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation dependencies.kotlin
+    implementation dependencies.coreKtx
+    implementation dependencies.appCompat
+    implementation dependencies.material
+    implementation dependencies.constraint
+    implementation dependencies.navigationFragment
+    implementation dependencies.navigation
+    implementation dependencies.lifecycle
+    implementation dependencies.fragmentKtx
+    implementation dependencies.navigationUiKtx
+    implementation dependencies.preference
+
+    // ViewModel
+    implementation dependencies.lifecycleViewmodelKtx
+    // LiveData
+    implementation dependencies.livedataKtx
+
+    //glide
+    implementation dependencies.glide
+    kapt dependencies.glideKapt
+
+    //coroutines
+    implementation dependencies.coroutinesCore
+    implementation dependencies.coroutinesAndroid
+
+    //dagger Hilt
+    implementation dependencies.hiltAndroid
+    kapt dependencies.hiltKapt
+    kapt dependencies.hiltCompilerKapt
+    implementation dependencies.hiltWork
+
+    // Retrofit Networking
+    implementation dependencies.retrofit
+    implementation dependencies.converterMoshi
+    implementation dependencies.okhttp
+    implementation dependencies.loggingInterceptor
+
+    //paging v3.0
+    implementation dependencies.pagingRuntime
+
+    // Kotlinx Serialization Converter
+    implementation dependencies.kotlinSerialization
+
+
+
+    testImplementation dependencies.testImplementation
+    androidTestImplementation dependencies.androidTestImplementation
+    androidTestImplementation dependencies.androidTestImplementationEspresso
+
+}

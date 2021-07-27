@@ -1,0 +1,62 @@
+ext {
+    //Android
+    androidCompileSdkVersion = 30
+    minSdkVersion = 23
+    verstionCode = 1
+
+    lifecycle_version = "2.2.0"
+    buildToolVersion = "30.0.2"
+    verstionName = "1.0"
+    coroutines_version = "1.3.9"
+    core_ktx = "1.3.1"
+    app_compat_verstion = "1.2.0"
+    jvmTarget = "1.8"
+    material = "1.2.0"
+    constraint = "2.0.1"
+    navigation_fragment = "2.3.0"
+    navigation = "2.3.0"
+    dagger_hilts_version = "2.35.1"
+    dagger_hilts_viewmodel_version = "1.0.0-alpha03"
+    retrofit_version = "2.9.0"
+    logging_interceptor_version = "4.9.0"
+    glide_version = "4.11.0"
+    paging_version = "3.0.0-alpha07"
+    prefrences_versition = "1.1.1"
+    kotline_serialization_versition = "0.7.0"
+
+    appDependencies = [
+            retrofit : "com.squareup.retrofit2:retrofit:${retrofit_version}",
+            kotlin: "org.jetbrains.kotlin:kotlin-stdlib:${kotlin_version}",
+            coreKtx : "androidx.core:core-ktx:${core_ktx}",
+            appCompat:"androidx.appcompat:appcompat:${app_compat_verstion}",
+            material:"com.google.android.material:material:${material}",
+            constraint:"androidx.constraintlayout:constraintlayout:${constraint}",
+            navigationFragment:"androidx.navigation:navigation-fragment:${navigation_fragment}",
+            navigation: "androidx.navigation:navigation-ui:${navigation}",
+            lifecycle: "androidx.lifecycle:lifecycle-extensions:${lifecycle_version}",
+            fragmentKtx: "androidx.navigation:navigation-fragment-ktx:${navigation_fragment}",
+            navigationUiKtx: "androidx.navigation:navigation-ui-ktx:${navigation_fragment}",
+            lifecycleViewmodelKtx: "androidx.lifecycle:lifecycle-viewmodel-ktx:${lifecycle_version}",
+            livedataKtx :"androidx.lifecycle:lifecycle-livedata-ktx:${lifecycle_version}",
+            glide: "com.github.bumptech.glide:glide:${glide_version}",
+            glideKapt: "com.github.bumptech.glide:compiler:${glide_version}",
+            coroutinesCore :"org.jetbrains.kotlinx:kotlinx-coroutines-core:${coroutines_version}",
+            coroutinesAndroid: "org.jetbrains.kotlinx:kotlinx-coroutines-android:${coroutines_version}",
+            hiltAndroid :"com.google.dagger:hilt-android:${dagger_hilts_version}",
+            hiltKapt: "com.google.dagger:hilt-android-compiler:${dagger_hilts_version}",
+            hiltCompilerKapt: "androidx.hilt:hilt-compiler:${dagger_hilts_viewmodel_version}",
+            hiltWork: "androidx.hilt:hilt-work:${dagger_hilts_viewmodel_version}",
+            retrofit: "com.squareup.retrofit2:retrofit:${retrofit_version}",
+            converterMoshi : "com.squareup.retrofit2:converter-moshi:${retrofit_version}",
+            okhttp: "com.squareup.okhttp3:okhttp:${retrofit_version}",
+            loggingInterceptor: "com.squareup.okhttp3:logging-interceptor:${logging_interceptor_version}",
+            pagingRuntime: "androidx.paging:paging-runtime:${paging_version}",
+            kotlinSerialization:"com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:${kotline_serialization_versition}",
+            preference: "androidx.preference:preference:${prefrences_versition}",
+            testImplementation :"junit:junit:4.12",
+            androidTestImplementation: "androidx.test.ext:junit:1.1.2",
+            androidTestImplementationEspresso :"androidx.test.espresso:espresso-core:3.3.0"
+
+    ]
+
+}

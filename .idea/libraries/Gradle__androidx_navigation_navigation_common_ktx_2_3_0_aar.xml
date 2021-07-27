@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-common-ktx:2.3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d028cbc19c13f5475b7ae14f6acc69b/navigation-common-ktx-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad49be295f162b784f081b511b4ec270/navigation-common-ktx-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/521bdd5e6c57f9e6e995b5b514118749/navigation-common-ktx-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a79cb6057c6a0f09be63cbdeaca2e73/navigation-common-ktx-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fba1d4aa3f581ca1880082c3fe8b8081/navigation-common-ktx-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e7a1f505fc2df3f51711e551ab84aef/navigation-common-ktx-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4440ad3fefe90941fb8b894c069ac4d5/navigation-common-ktx-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/102bf53ec9864ca473894abc70efa182/navigation-common-ktx-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa4aa92e8e32e3ec1a53275a15d59ad/navigation-common-ktx-2.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa4aa92e8e32e3ec1a53275a15d59ad/navigation-common-ktx-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa4aa92e8e32e3ec1a53275a15d59ad/navigation-common-ktx-2.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-common-ktx/2.3.0/1a3ce7c2b9dcc97c1d25ef6ab8e016b5a76de983/navigation-common-ktx-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

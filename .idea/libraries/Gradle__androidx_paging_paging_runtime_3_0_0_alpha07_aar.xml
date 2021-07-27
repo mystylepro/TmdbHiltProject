@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.paging:paging-runtime:3.0.0-alpha07@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c1606bcacf41154a9b958c987c4b4e6/paging-runtime-3.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cae99b8138fa4452c76ebeb2a7c5dd44/paging-runtime-3.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a92af32471101238267001616cca93bb/paging-runtime-3.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6cc45305b60f92ce33bac3b32a8022e8/paging-runtime-3.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4b4c9aec475a5a1c94c9d5fedf9a8ac8/paging-runtime-3.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e72298f0ed37447415a6f8739ca1189/paging-runtime-3.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf74b5f2811647b9b4d558518fefbb5f/paging-runtime-3.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72c2fba75045be9bf322e9441eebaece/paging-runtime-3.0.0-alpha07/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e4ab1b7edb3c24e43acbd4f5cdcdc7c/paging-runtime-3.0.0-alpha07/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e4ab1b7edb3c24e43acbd4f5cdcdc7c/paging-runtime-3.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e4ab1b7edb3c24e43acbd4f5cdcdc7c/paging-runtime-3.0.0-alpha07/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.paging/paging-runtime/3.0.0-alpha07/2478f86d8af710d2680f615da9c476762ee70c75/paging-runtime-3.0.0-alpha07-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
